@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Manan Agrawal | Personal Resume</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <style>
+    body {
+      font-family: 'Inter', sans-serif;
+      background-color: #06013d;
+      color: #fafafc; 
+    }
+    .accent {
+      color: #06013d;
+    }
+    .bg-accent {
+      background-color: #22ce28;
+    }
+    .card {
+      background: #fcfcfc;
+      border-radius: 1rem;
+      padding: 1.5rem;
+      box-shadow: 0 8px 20px rgba(126, 34, 206, 0.1);
+      transition: all 0.3s ease;
+    }
+    .card:hover {
+      transform: translateY(-6px);
+      box-shadow: 0 20px 25px rgba(235, 231, 2, 0.2);
+    }
+    .section-title::after {
+      content: '';
+      display: block;
+      width: 60px;
+      height: 4px;
+      background-color: #f90404;
+      margin: 0.5rem auto 0;
+      border-radius: 2px;
+    }
+    html {
+      scroll-behavior: smooth;
+    }
+  </style>
+</head>
+
+<body class="antialiased">
+
+  <!-- Header -->
+  <header class="bg-black shadow-sm sticky top-0 z-50">
+    <nav class="container mx-auto flex justify-between items-center p-5">
+      <h1 class="text-2xl font-bold accent">MA - Resume</h1>
+      <ul class="hidden md:flex space-x-6 font-medium text-gray-600">
+        <li><a href="#about" class="hover:text-white">About</a></li>
+        <li><a href="#experience" class="hover:text-white">Experience</a></li>
+        <li><a href="#skills" class="hover:text-white">Skills</a></li>
+        <li><a href="#education" class="hover:text-white">Education</a></li>
+        <li><a href="#contact" class="hover:text-white">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main class="container mx-auto p-6 md:p-10">
+
+    <!-- About -->
+    <section id="about" class="text-center py-20">
+      <h2 class="text-4xl md:text-5xl font-bold mb-4 text-white">Manan Agrawal</h2>
+      <p class="text-xl text-white">BBA Student at IIMB & Aspiring Entrepreneur</p>
+      <p class="mt-6 text-lg text-white leading-relaxed max-w-3xl mx-auto">
+        Passionate about <span class="text-white">business innovation</span> and 
+        <span class="text-white">data-driven solutions</span>. I aim to apply analytical, 
+        creative, and strategic thinking to solve complex business challenges and contribute 
+        meaningfully to the world of management.
+      </p>
+    </section>
+    <!-- Experience -->
+    <section id="experience" class="py-16 bg-#06013d rounded-2xl shadow-lg mt-10">
+        <h3 class="text-3xl font-bold text-center mb-12 section-title">Experience</h3>
+        
+          <div class="card">
+            <h4 class="text-xl font-semibold accent">Group Leader</h4>
+            <p class="text-md text-gray-700 mt-1 font-medium">Advertising Project</p>
+            <p class="mt-4 text-gray-600">
+              Worked as a group leader for an 'advertising project' for a 'fast-food company.' I got to know various new concepts and guided my team until the final project stage.
+            </p>
+          </div>
+          <div class="card">
+            <h4 class="text-xl font-semibold accent">Assistant Head</h4>
+            <p class="text-md text-gray-700 mt-1 font-medium">Social Media Marketing Campaign</p>
+            <p class="mt-4 text-gray-600">
+              Assisted a regional head for a 'social media marketing campaign' for a 'sports and athleisure brand.' 
+            </p>
+          </div>
+        </div>
+      </section>
+      <!-- Skills -->
+      <section id="skills" class="py-16 mt-10">
+        <h3 class="text-3xl font-bold text-center mb-12 section-title">Skills & Languages</h3>
+        <div class="grid md:grid-cols-4 sm:grid-cols-2 gap-6 text-center">
+          <div class="card">
+            <p class="font-semibold text-gray-700">Business Analytics</p>
+          </div>
+          <div class="card">
+            <p class="font-semibold text-gray-700">Strategic Planning</p>
+          </div>
+          <div class="card">
+            <p class="font-semibold text-gray-700">Market Research</p>
+          </div>
+          <div class="card">
+            <p class="font-semibold text-gray-700">Communication</p>
+          </div>
+        </div>
+  
+        <!-- Languages -->
+        <div class="mt-14 grid md:grid-cols-2 gap-8">
+          <div class="card text-center">
+            <h5 class="text-xl font-semibold accent">English</h5>
+            <p class="text-lg text-gray-600 mt-2">Fluent</p>
+          </div>
+          <div class="card text-center">
+            <h5 class="text-xl font-semibold accent">Hindi</h5>
+            <p class="text-lg text-gray-600 mt-2">Fluent</p>
+          </div>
+        </div>
+      </section>
+  
+      <!-- Education -->
+      <section id="education" class="py-16 bg-#06013d rounded-2xl shadow-lg mt-10">
+        <h3 class="text-3xl font-bold text-center mb-12 section-title">Education</h3>
+        <div class="space-y-8">
+          <div class="card">
+            <h4 class="text-xl font-semibold accent">Bachelor of Business Administration (BBA DBE)</h4>
+            <p class="text-md text-gray-700 mt-1 font-medium">Indian Institute of Management Bangalore</p>
+            <p class="mt-2 text-gray-600">
+              Pursuing a specialized program in digital business and entrepreneurship with 
+              focus on strategic leadership and business innovation.
+            </p>
+          </div>
+          <div class="card">
+            <h4 class="text-xl font-semibold accent">Class XII</h4>
+            <p class="text-md text-gray-700 mt-1 font-medium">CBSE Board</p>
+            <p class="mt-2 text-gray-600">Scored 80% in Class XII with a background in 'Commerce and Applied Maths.'</p>
+          </div>
+          <div class="card">
+            <h4 class="text-xl font-semibold accent">Class X</h4>
+            <p class="text-md text-gray-700 mt-1 font-medium">IGCSE Board</p>
+            <p class="mt-2 text-gray-600">Achieved an overall percentage of 86 from a group of 8 subjects; having the highest scores in Hindi - '92% - A*' and Accountancy - '93% - A*'.</p>
+          </div>
+        </div>
+      </section>
+      <!-- Contact -->
+    <section id="contact" class="py-20 text-center">
+        <h3 class="text-3xl font-bold section-title">Get In Touch</h3>
+        <p class="mt-6 text-lg text-white max-w-2xl mx-auto">
+          Interested in collaborating or discussing new ideas? 
+          Let’s connect and explore innovative opportunities together.
+        </p>
+        <div class="mt-8 flex flex-col sm:flex-row justify-center items-center space-y-4 sm:space-y-0 sm:space-x-4">
+          <a href="manan.agrawal24@iimb.ac.in"
+            class="inline-flex items-center justify-center bg-gray-700 text-white font-bold py-3 px-6 rounded-full hover:bg-purple-700 transition-all duration-300 w-full sm:w-auto">
+            📧 Email Me
+          </a>
+          <a href="https://linkedin.com/in/mananagrawal24" target="_blank" rel="noopener noreferrer"
+            class="inline-flex items-center justify-center bg-gray-700 text-white font-bold py-3 px-6 rounded-full hover:bg-purple-700 transition-all duration-300 w-full sm:w-auto">
+            💼 LinkedIn
+          </a>
+        </div>
+      </section>
+  
+    </main>
+    <!-- Footer -->
+    <footer class="bg-black text-white text-center py-6">
+      <div class="container mx-auto">
+        <p class="text-white text-center mb-2">&copy; 2025 Manan Agrawal. All Rights Reserved.</p>
+        <div class="flex justify-center space-x-6">
+          <a href="manan.agrawal24@iimb.ac.in" class="text-gray-300 hover:text-white">Email</a>
+          <a href="https://linkedin.com/in/mananagrawal24" target="_blank" class="text-gray-300 hover:text-white">LinkedIn</a>
+        </div>
+      </div>
+    </footer>
+  
+  </body>
+  </html>
